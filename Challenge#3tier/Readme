@@ -1,2 +1,2 @@
-In This 3 tier architechture I am creating a VPC with 2 subnets in each region for HA.  Also i am using a jump server to connect my web application placed in the priavate subnet .
+In This 3 tier architechture I am creating a VPC with 2 subnets in each region for HA.  Also i am using a jump server to connect my web application placed in the private subnet .
 And the webserver is using the elb to route requests to VM's placed behind it , Also i am using a RDS mysql instance for the backend , placed in the private subnet .
